@@ -1,0 +1,41 @@
+<div class="loader-container" *ngIf="isLoading">
+  <div class="loader"></div>
+</div>
+
+
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <div class="mb-5 flex space-x-4">
+    <!-- Product Name -->
+    <div class="flex-1">
+      <label for="name" class="block mb-1 text-sm font-medium text-gray-900">Product Name</label>
+      <input type="text" id="name" [(ngModel)]="product.name" [ngModelOptions]="{standalone: true}"
+        class="bg-gray-50 border text-sm rounded-lg w-full p-2.5 dark:bg-gray-700  dark:text-white" name="name"
+        placeholder="Gucci Bag" required />
+    </div>
+
+    <!-- Description -->
+    <div class="flex-1">
+      <label for="description" class="block mb-1 text-sm font-medium text-gray-900">Description</label>
+      <input type="text" id="description" [(ngModel)]="product.description" [ngModelOptions]="{standalone: true}"
+        class="bg-gray-50 border text-sm rounded-lg w-full p-2.5 dark:bg-gray-700  dark:text-white" name="description"
+        placeholder="Hand bag for women" required />
+    </div>
+
+    <!-- Price -->
+    <div class="flex-1">
+      <label for="price" class="block mb-1 text-sm font-medium text-gray-900">Price</label>
+      <input type="number" id="price"  [(ngModel)]="product.price" [ngModelOptions]="{standalone: true}"
+        class="bg-gray-50 border text-sm rounded-lg w-full p-2.5 dark:bg-gray-700  dark:text-white" placeholder="20.00" name="price"
+        required />
+    </div>
+  </div>
+  <div *ngIf="showValidationMessage" class="text-red-600 text-sm mb-3">
+    {{ validationMessage }}
+  </div>
+  <div class="flex justify-end gap-2">
+    <button type="submit" icon="pi pi-cancel"
+      class="mr-2 p-button-sm bg-gray-900 text-white p-2 rounded w-32">Save</button>
+  </div>
+</form>
+
+<p-toast></p-toast>

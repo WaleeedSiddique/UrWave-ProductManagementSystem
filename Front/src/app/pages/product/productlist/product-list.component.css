@@ -1,0 +1,17 @@
+/* Styling for the PrimeNG table */
+p-table {
+    margin-top: 20px;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  td {
+    text-align: left;
+  }
+
+  ::ng-deep .p-confirm-dialog .p-button {
+    margin-right: 15px; 
+  }
+  
