@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProductManagementSystem - UrWave\\API\\API\\API.csproj": {}
+    "D:\\UrWave-ProductManagementSystem\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\ProductManagementSystem - UrWave\\API\\API\\API.csproj": {
+    "D:\\UrWave-ProductManagementSystem\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProductManagementSystem - UrWave\\API\\API\\API.csproj",
+        "projectUniqueName": "D:\\UrWave-ProductManagementSystem\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\ProductManagementSystem - UrWave\\API\\API\\API.csproj",
+        "projectPath": "D:\\UrWave-ProductManagementSystem\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Waleed\\.nuget\\packages\\",
-        "outputPath": "D:\\ProductManagementSystem - UrWave\\API\\API\\obj\\",
+        "outputPath": "D:\\UrWave-ProductManagementSystem\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Waleed\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PWtAB1tpclN8zZQpZPAstaz99M6EY3YsTVDQZqadaUoR+2W+cJsqhWCLDIYXCbdbG0ZPycQddRD/trsmPjFGgA==",
+  "dgSpecHash": "PtOgNpk3aUiJ9Pmc+YA+3CazmzVOrBUGWwHCGAVK6kXA2ZwSgFje4aQYG0S4iMdhjgnAF15XjttLtnnJEMRwKg==",
   "success": true,
-  "projectFilePath": "D:\\ProductManagementSystem - UrWave\\API\\API\\API.csproj",
+  "projectFilePath": "D:\\UrWave-ProductManagementSystem\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Waleed\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Waleed\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
