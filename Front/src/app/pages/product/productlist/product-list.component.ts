@@ -48,7 +48,9 @@ export class ProductlistComponent implements OnInit {
       this.products = response.result;
         this.filteredProducts = [...this.products];
       this.isLoading = false;
-    })
+    }).catch((error) => {
+      this.isLoading = false;
+    });
   }
   openDialog() {
     this.visible = true;
